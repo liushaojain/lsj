@@ -1,0 +1,17 @@
+.tabBars{
+    width: 100vw;
+    height: 100vh;
+}
+.am-tabs-default-bar-tab{
+    padding-top: 50px;
+}
+.am-tabs-default-bar-content>div{
+    background-image: url(./img/bottom_menu.png);
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    background-position-x: center;
+}
+.am-tabs-default-bar-content>div:first-child{
+    background-position: center 0;
+    background-size: 50px auto;
+}
